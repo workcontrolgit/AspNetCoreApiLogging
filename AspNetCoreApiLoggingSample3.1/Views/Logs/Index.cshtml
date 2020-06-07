@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<AspNetCoreApiLoggingSample.Data.ApiLogItem>
+
+<h1>API Logs</h1>
+<table class="table table-striped">
+    <tr>
+        <th>ID</th>
+        <th>Request Date</th>
+        <th>Response Time (ms)</th>
+        <th>Status Code</th>
+        <th>Method</th>
+        <th>Path</th>
+        <th>Query String</th>
+        <th>Request Body</th>
+        <th>Response Body</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.RequestTime</td>
+        <td>@item.ResponseMillis</td>
+        <td>@item.StatusCode</td>
+        <td>@item.Method</td>
+        <td>@item.Path</td>
+        <td>@item.QueryString</td>
+        <td>@item.RequestBody</td>
+        <td>@item.ResponseBody</td>
+    </tr>
+    }
+</table>
