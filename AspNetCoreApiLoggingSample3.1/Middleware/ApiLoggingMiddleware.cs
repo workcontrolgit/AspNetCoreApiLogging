@@ -37,6 +37,10 @@ namespace AspNetCoreApiLoggingSample.Middleware
                     using (var responseBody = new MemoryStream())
                     {
                         var response = httpContext.Response;
+
+
+
+
                         response.Body = responseBody;
                         await _next(httpContext);
                         stopWatch.Stop();

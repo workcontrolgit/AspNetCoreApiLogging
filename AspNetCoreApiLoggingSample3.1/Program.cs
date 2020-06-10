@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace AspNetCoreApiLoggingSample3._1
+namespace AspNetCoreApiLoggingPrototype
 {
     public class Program
     {

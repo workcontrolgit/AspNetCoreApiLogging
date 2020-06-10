@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AspNetCoreApiLoggingSample3._1.Models;
+using AspNetCoreApiLoggingPrototype.Models;
 
-namespace AspNetCoreApiLoggingSample3._1.Controllers
+namespace AspNetCoreApiLoggingPrototype.Controllers
 {
     public class HomeController : Controller
     {

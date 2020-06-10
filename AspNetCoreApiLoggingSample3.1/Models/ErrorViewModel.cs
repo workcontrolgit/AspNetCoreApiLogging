@@ -1,6 +1,6 @@
 using System;
 
-namespace AspNetCoreApiLoggingSample3._1.Models
+namespace AspNetCoreApiLoggingPrototype.Models
 {
     public class ErrorViewModel
     {
