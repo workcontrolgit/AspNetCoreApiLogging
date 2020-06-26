@@ -1,5 +1,5 @@
-﻿using AspNetCoreApiLoggingSample.Data;
-using AspNetCoreApiLoggingSample.Services;
+﻿using AspNetCoreApiLogging.Data;
+using AspNetCoreApiLogging.Services;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AspNetCoreApiLoggingSample.Middleware
+namespace AspNetCoreApiLogging.Middleware
 {
     public class ApiLoggingMiddleware
     {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AspNetCoreApiLoggingSample.Services;
+using AspNetCoreApiLogging.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCoreApiLoggingSample.Controllers
+namespace AspNetCoreApiLogging.Controllers
 {
     public class LogsController : Controller
     {

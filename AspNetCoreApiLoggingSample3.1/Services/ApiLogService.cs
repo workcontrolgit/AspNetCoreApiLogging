@@ -1,11 +1,11 @@
-﻿using AspNetCoreApiLoggingSample.Data;
+﻿using AspNetCoreApiLogging.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AspNetCoreApiLoggingSample.Services
+namespace AspNetCoreApiLogging.Services
 {
     public class ApiLogService
     {

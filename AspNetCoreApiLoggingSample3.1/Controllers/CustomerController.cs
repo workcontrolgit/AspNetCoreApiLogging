@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using AspNetCoreApiLoggingSample.Data;
+using AspNetCoreApiLogging.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AspNetCoreApiLoggingSample.Controllers
+namespace AspNetCoreApiLogging.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
